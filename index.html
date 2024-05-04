@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tetris Game</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="container">
+            <div class="vesel">
+                <h1 class="game-title">Tetris Ghost</h1>
+                <div class="flex">
+                    <div class="game-board">
+                        <canvas id="gameCanvas" width="400" height="400"></canvas>
+                    </div>
+                    <div class="game-stats">
+                        <p>Score: <span id="score">0</span></p>
+                        <p>Lines: <span id="lines">0</span></p>
+                        <p>Games Won: <span id="gamesWon">0</span></p>
+                    </div>
+                </div>
+                <div class="game-pad">
+                    <div class="control-buttons">
+                        <button id="startStopButton">Start</button>
+                        <button id="pausePlayButton">Pause</button>
+                        <button id="resetButton">Reset</button>
+                    </div>
+                    <div class="direction-buttons">
+                        <button id="rotateButton">Rotate</button>
+                        <button id="leftButton">Left</button>
+                        <button id="rightButton">Right</button>
+                        <button id="downButton">Down</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>
